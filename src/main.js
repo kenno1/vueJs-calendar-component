@@ -9,6 +9,13 @@ Vue.use(VueTextareaAutosize);
 Vue.config.productionTip = false
 
 firebase.initializeApp({
+  apiKey: "**********",
+  authDomain: "**********",
+  projectId: "**********",
+  storageBucket: "**********",
+  messagingSenderId: "**********",
+  appId: "**********",
+  measurementId: "**********"
 })
 
 export const db = firebase.firestore();
